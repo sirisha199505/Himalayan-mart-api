@@ -28,13 +28,13 @@ class App::Routes < Roda
 
     r.on 'api' do
       r.response['Content-Type'] = 'application/json'
-      
+
       # Public endpoints (no auth required)
       r.post('login') { Session[r].login }
       r.post('forgot-password') { Users[r].forgot_password }
       r.post('validate-password-token') { Users[r].validate_password_token }
       r.post('reset-password') { Users[r].reset_password }
-      
+
       r.get 'version' do
         { status: 'success', version: 1 }
       end
@@ -42,29 +42,44 @@ class App::Routes < Roda
       # Authentication required for all routes below
       auth_required!
 
-      # User profile routes
+      # User profile routes (any authenticated staff member)
       r.on 'me' do
         r.get('info') { Users[r].info }
         r.put('update-password') { Users[r].update_password }
       end
 
-      # Admin-only routes
-      admin_required!
-      
-      # Wrap all admin routes in error handling
+      # Staff routes — Super Admin OR Admin
+      staff_required!
+
       begin
+        r.on('products')      { do_crud(Products, r) }
+        r.on('categories')    { do_crud(Categories, r) }
+        r.on('gallery')       { do_crud(GalleryItems, r) }
+        r.on('faqs')          { do_crud(Faqs, r) }
+        r.on('blogs')         { do_crud(Blogs, r) }
+        r.on('case-studies')  { do_crud(CaseStudies, r) }
+        r.on('stories')       { do_crud(Stories, r) }
+        r.on('seo')           { do_crud(Seos, r) }
+        r.on('leads')         { do_crud(Leads, r) }
+        r.on('orders')        { do_crud(Orders, r) }
+        r.on('customers')     { do_crud(Customers, r) }
+        r.get('analytics')    { Analytics[r].summary }
+
+        # Super Admin only
         r.on 'users' do
-          do_crud(Users, r, 'CRUDL')
+          super_admin_required!
+          do_crud(Users, r)
         end
 
-        r.on 'regions' do
-          do_crud(Regions, r, 'CRUDL')
+        r.on 'settings' do
+          super_admin_required!
+          r.get { Settings[r].current }
+          r.put { Settings[r].save_current }
         end
-        
-        # Add other admin routes here
       rescue => e
         App.logger.error("API Error: #{e.message}")
         App.logger.error(e.backtrace)
+        r.response.status = 400
         { status: 'error', message: "An error occurred: #{e.message}" }
       end
     end
@@ -91,9 +106,17 @@ class App::Routes < Roda
     end
   end
 
-  def admin_required!
-    unless (App.cu.user_obj.admin? || App.cu.user_obj.rgm?)
+  # Any admin console user (Super Admin or Admin)
+  def staff_required!
+    unless App.cu.user_obj&.staff?
       request.halt(403, {'Content-Type' => 'application/json'},{ status: 'Forbidden!' }.to_json)
+    end
+  end
+
+  # Super Admin only (user management, settings)
+  def super_admin_required!
+    unless App.cu.user_obj&.super_admin?
+      request.halt(403, {'Content-Type' => 'application/json'},{ status: 'Forbidden! Super Admin access required.' }.to_json)
     end
   end
 end

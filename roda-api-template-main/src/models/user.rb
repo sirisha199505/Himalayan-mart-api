@@ -1,26 +1,23 @@
 class App::Models::User < Sequel::Model
   include BCrypt
 
-  # Associations
-  # one_to_many :user_properties
-
   # Role constants
   ROLES = {
-    admin: 1,
-    rgm: 2,
-    gm: 3
+    super_admin: 1,
+    admin: 2
   }.freeze
+
+  def super_admin?
+    role == ROLES[:super_admin]
+  end
 
   def admin?
     role == ROLES[:admin]
   end
 
-  def rgm?
-    role == ROLES[:rgm]
-  end
-
-  def gm?
-    role == ROLES[:gm]
+  # Anyone allowed into the admin console.
+  def staff?
+    super_admin? || admin?
   end
 
   def validate
@@ -44,14 +41,9 @@ class App::Models::User < Sequel::Model
 
   def role_name
     case role
-    when ROLES[:admin]
-      "Admin"
-    when ROLES[:rgm]
-      "RGM"
-    when ROLES[:gm]
-      "GM"
-    else
-      "Unknown"
+    when ROLES[:super_admin] then "Super Admin"
+    when ROLES[:admin]       then "Admin"
+    else "Unknown"
     end
   end
 
@@ -92,21 +84,9 @@ class App::Models::User < Sequel::Model
     mail.deliver!
   end
 
-  def valid_property_ids
-    if admin?
-      App::Models::Property.where(client_id: client_id).select_map(:id)
-    else
-      property_ids || []
-    end
-  end
-
-  def properties
-    property_ids || []
-  end
-
   def as_pos
     as_json(only:
-      [:email, :full_name, :phone_number, :role, :id, :active, :created_at, :updated_at, :last_logged_in_at, :parent_id]
-    ).merge!(role_name: role_name, property_count: properties.length)
+      [:email, :full_name, :phone_number, :role, :id, :active, :created_at, :updated_at, :last_logged_in_at]
+    ).merge!(role_name: role_name)
   end
 end

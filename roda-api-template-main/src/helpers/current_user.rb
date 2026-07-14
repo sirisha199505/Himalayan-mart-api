@@ -78,7 +78,11 @@ class App::Helpers::CurrentUser
     end
 
     def admin?
-      user_obj&.role === 0
+      user_obj&.staff?
+    end
+
+    def super_admin?
+      user_obj&.super_admin?
     end
 
     def entity_ids

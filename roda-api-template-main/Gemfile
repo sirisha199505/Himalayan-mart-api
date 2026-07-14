@@ -4,6 +4,9 @@ ruby "3.4.6"
 
 gem 'roda'
 gem 'puma'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
 gem 'oj', platforms: :ruby
 gem 'rack'
 gem 'activesupport', require: 'active_support/all'
