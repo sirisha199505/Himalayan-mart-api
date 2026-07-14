@@ -2,6 +2,21 @@ require 'bundler'
 require 'open-uri'
 require 'csv'
 Rack::Utils # Patch
+
+# Load environment variables from a local .env file (no dotenv gem needed) so
+# the app boots the same way regardless of how it's started (puma, rackup, etc.)
+env_file = File.expand_path('.env', __dir__)
+if File.exist?(env_file)
+  File.foreach(env_file) do |line|
+    line = line.strip
+    next if line.empty? || line.start_with?('#')
+    key, _, value = line.partition('=')
+    key = key.strip
+    value = value.strip.gsub(/\A["']|["']\z/, '')
+    ENV[key] ||= value unless key.empty?
+  end
+end
+
 require './src/app'
 
 Bundler.require(:default, App.env)
