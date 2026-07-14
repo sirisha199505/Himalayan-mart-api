@@ -39,6 +39,9 @@ class App::Routes < Roda
         { status: 'success', version: 1 }
       end
 
+      # Public store settings for the storefront (whitelisted, no auth)
+      r.get('store-info') { Settings[r].public_info }
+
       # Authentication required for all routes below
       auth_required!
 
