@@ -42,6 +42,14 @@ class App::Routes < Roda
       # Public store settings for the storefront (whitelisted, no auth)
       r.get('store-info') { Settings[r].public_info }
 
+      # Public guest checkout + Razorpay payment (no auth — storefront shoppers)
+      r.on 'checkout' do
+        r.post('create-order') { Checkout[r].create_order }
+        r.post('verify')       { Checkout[r].verify }
+        r.post('cod')          { Checkout[r].place_cod }
+        r.get('order')         { Checkout[r].show }
+      end
+
       # Authentication required for all routes below
       auth_required!
 

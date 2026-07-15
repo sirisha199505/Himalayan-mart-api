@@ -27,6 +27,14 @@ module App
       ENV.fetch('DB_URL') { raise "DB_URL environment variable is required" }
     end
 
+    def razorpay_key_id
+      ENV['RAZORPAY_KEY_ID']
+    end
+
+    def razorpay_key_secret
+      ENV['RAZORPAY_KEY_SECRET']
+    end
+
     def load!
       # First connect to the database
       connect_to_database

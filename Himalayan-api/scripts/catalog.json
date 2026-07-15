@@ -1,0 +1,1600 @@
+[
+  {
+    "slug": "himalaya-3-seater-sofa",
+    "name": "Himalaya 3-Seater Sofa",
+    "category": "sofas",
+    "price": 54990,
+    "mrp": 72990,
+    "rating": 4.8,
+    "reviews": 214,
+    "short_description": "A grand 3-seater with deep cushioning and a solid sheesham frame.",
+    "description": "The Himalaya 3-seater is our flagship sofa — a kiln-dried sheesham hardwood frame wrapped in high-resilience foam and premium textured upholstery. Wide track arms, feather-blend back cushions and a tailored silhouette make it the centrepiece your living room deserves.",
+    "warranty": "5-Year Frame Warranty",
+    "seating": "3 Seater",
+    "weight": 58,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=1121,fit=crop/LCbkQflvzpboJC3e/whatsapp-image-2026-05-13-at-12.52.02-pm-16-m5WeAZ5XvCGFEPGs.jpeg",
+      "https://images.unsplash.com/photo-1586024486164-ce9b3d87e09f?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Sheesham Hardwood",
+      "HR Foam",
+      "Textured Fabric"
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#d9cbb6"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      },
+      {
+        "name": "Forest",
+        "hex": "#3f5340"
+      }
+    ],
+    "dimensions": {
+      "width": 210,
+      "depth": 92,
+      "height": 86
+    },
+    "badges": [
+      "Best Seller",
+      "Free Delivery"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Sheesham Hardwood, HR Foam, Textured Fabric"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "210 × 92 × 86 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "5-Year Frame Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "aspen-l-shaped-sectional",
+    "name": "Aspen L-Shaped Sectional",
+    "category": "sofas",
+    "price": 89990,
+    "mrp": 114990,
+    "rating": 4.9,
+    "reviews": 156,
+    "short_description": "Modular L-shape with a chaise — built for big-family lounging.",
+    "description": "A generous modular sectional with a reversible chaise, pocket-spring seating and a stain-resistant weave. The Aspen brings hotel-lobby comfort into your home with a frame engineered to last decades.",
+    "warranty": "5-Year Frame Warranty",
+    "seating": "5–6 Seater",
+    "weight": 92,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": true,
+    "images": [
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1553098455-d1392a0428d0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Pocket Springs",
+      "Performance Weave"
+    ],
+    "colors": [
+      {
+        "name": "Stone Grey",
+        "hex": "#9ca3af"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d9cbb6"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      }
+    ],
+    "dimensions": {
+      "width": 268,
+      "depth": 168,
+      "height": 84
+    },
+    "badges": [
+      "New",
+      "Premium"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, Pocket Springs, Performance Weave"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "268 × 168 × 84 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "5-Year Frame Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "kashmir-upholstered-king-bed",
+    "name": "Kashmir Upholstered King Bed",
+    "category": "beds",
+    "price": 64990,
+    "mrp": 82990,
+    "rating": 4.8,
+    "reviews": 189,
+    "short_description": "King bed with a channel-tufted headboard and hydraulic storage.",
+    "description": "The Kashmir pairs a dramatic channel-tufted headboard with whisper-quiet hydraulic storage beneath. A solid frame, reinforced slats and a plush fabric finish make it the calm centre of a luxurious bedroom.",
+    "warranty": "3-Year Warranty",
+    "seating": "King (78×72)",
+    "weight": 110,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=1000,fit=crop/LCbkQflvzpboJC3e/whatsapp-image-2026-05-13-at-1.06.17-pm-kdQINjWIjBdO8uBc.jpeg",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Solid Pine",
+      "Ply Box",
+      "Velvet-touch Fabric"
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#d9cbb6"
+      },
+      {
+        "name": "Stone Grey",
+        "hex": "#9ca3af"
+      },
+      {
+        "name": "Rust",
+        "hex": "#b7410e"
+      }
+    ],
+    "dimensions": {
+      "width": 198,
+      "depth": 215,
+      "height": 120
+    },
+    "badges": [
+      "Best Seller",
+      "Hydraulic Storage"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Solid Pine, Ply Box, Velvet-touch Fabric"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "198 × 215 × 120 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "nordic-queen-storage-bed",
+    "name": "Nordic Queen Storage Bed",
+    "category": "beds",
+    "price": 48990,
+    "mrp": 61990,
+    "rating": 4.7,
+    "reviews": 142,
+    "short_description": "Clean Scandinavian lines with drawer storage.",
+    "description": "Minimal, warm and endlessly practical — the Nordic queen bed offers four spacious drawers, a low-profile headboard and a teak-finish frame that suits any palette.",
+    "warranty": "3-Year Warranty",
+    "seating": "Queen (72×60)",
+    "weight": 88,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": true,
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Teak Veneer"
+    ],
+    "colors": [
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      },
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      }
+    ],
+    "dimensions": {
+      "width": 168,
+      "depth": 205,
+      "height": 100
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, Teak Veneer"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "168 × 205 × 100 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "everest-6-seater-dining-set",
+    "name": "Everest 6-Seater Dining Set",
+    "category": "dining-sets",
+    "price": 74990,
+    "mrp": 94990,
+    "rating": 4.9,
+    "reviews": 121,
+    "short_description": "Solid acacia table with six cushioned chairs.",
+    "description": "Built around a thick solid-acacia top with a live-edge character, the Everest seats six in cushioned comfort. A heirloom dining set for the gatherings that matter.",
+    "warranty": "5-Year Warranty",
+    "seating": "6 Seater",
+    "weight": 75,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1200&q=80",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=1124,fit=crop/LCbkQflvzpboJC3e/whatsapp-image-2026-05-13-at-12.52.02-pm-3-fOSLaFyCmxWstypW.jpeg",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Solid Acacia",
+      "Cushioned Seats"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      }
+    ],
+    "dimensions": {
+      "width": 180,
+      "depth": 90,
+      "height": 76
+    },
+    "badges": [
+      "Best Seller"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Solid Acacia, Cushioned Seats"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "180 × 90 × 76 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "5-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "aria-4-seater-dining-set",
+    "name": "Aria 4-Seater Dining Set",
+    "category": "dining-sets",
+    "price": 42990,
+    "mrp": 53990,
+    "rating": 4.6,
+    "reviews": 98,
+    "short_description": "Compact dining for modern apartments.",
+    "description": "A space-smart four-seater with a rounded-corner top and ergonomic chairs — perfect for apartments that want big style in a small footprint.",
+    "warranty": "3-Year Warranty",
+    "seating": "4 Seater",
+    "weight": 48,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Sheesham",
+      "Fabric Seats"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d9cbb6"
+      }
+    ],
+    "dimensions": {
+      "width": 120,
+      "depth": 75,
+      "height": 75
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Sheesham, Fabric Seats"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "120 × 75 × 75 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "executive-boss-chair-pro",
+    "name": "Executive Boss Chair Pro",
+    "category": "office-furniture",
+    "price": 18990,
+    "mrp": 26990,
+    "rating": 4.7,
+    "reviews": 276,
+    "short_description": "High-back leatherette boss chair with lumbar support.",
+    "description": "A commanding high-back chair with multi-tilt recline, adjustable lumbar, padded armrests and premium leatherette. Designed for long days at the helm.",
+    "warranty": "2-Year Warranty",
+    "seating": null,
+    "weight": 19,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Leatherette",
+      "Nylon Base",
+      "Class-4 Gas Lift"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      },
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      }
+    ],
+    "dimensions": {
+      "width": 68,
+      "depth": 70,
+      "height": 122
+    },
+    "badges": [
+      "Best Seller"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Leatherette, Nylon Base, Class-4 Gas Lift"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "68 × 70 × 122 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "2-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "summit-executive-office-desk",
+    "name": "Summit Executive Office Desk",
+    "category": "office-furniture",
+    "price": 36990,
+    "mrp": 47990,
+    "rating": 4.8,
+    "reviews": 87,
+    "short_description": "Executive desk with integrated storage and cable management.",
+    "description": "The Summit desk pairs a broad work surface with a side return, lockable drawers and discreet cable routing — a workspace that means business.",
+    "warranty": "3-Year Warranty",
+    "seating": null,
+    "weight": 64,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": true,
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Walnut Laminate"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      }
+    ],
+    "dimensions": {
+      "width": 160,
+      "depth": 80,
+      "height": 75
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, Walnut Laminate"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "160 × 80 × 75 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "ergo-mesh-office-chair",
+    "name": "Ergo Mesh Office Chair",
+    "category": "chairs",
+    "price": 12990,
+    "mrp": 17990,
+    "rating": 4.6,
+    "reviews": 312,
+    "short_description": "Breathable mesh chair with synchro-tilt.",
+    "description": "All-day ergonomic support with a breathable mesh back, adjustable headrest, synchro-tilt mechanism and 3D armrests. Posture, sorted.",
+    "warranty": "2-Year Warranty",
+    "seating": null,
+    "weight": 16,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Mesh",
+      "Aluminium Base"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      },
+      {
+        "name": "Stone Grey",
+        "hex": "#9ca3af"
+      }
+    ],
+    "dimensions": {
+      "width": 66,
+      "depth": 66,
+      "height": 118
+    },
+    "badges": [
+      "Best Seller"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Mesh, Aluminium Base"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "66 × 66 × 118 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "2-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "lumen-accent-armchair",
+    "name": "Lumen Accent Armchair",
+    "category": "chairs",
+    "price": 21990,
+    "mrp": 28990,
+    "rating": 4.8,
+    "reviews": 64,
+    "short_description": "Sculptural accent chair in boucle.",
+    "description": "A sculptural barrel chair upholstered in cosy boucle on tapered wooden legs — the perfect reading nook companion or living-room accent.",
+    "warranty": "2-Year Warranty",
+    "seating": null,
+    "weight": 18,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": true,
+    "images": [
+      "https://images.unsplash.com/photo-1519947486511-46149fa0a254?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1528208079124-a2387f039c99?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Boucle Fabric",
+      "Solid Wood Legs"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      },
+      {
+        "name": "Rust",
+        "hex": "#b7410e"
+      },
+      {
+        "name": "Forest",
+        "hex": "#3f5340"
+      }
+    ],
+    "dimensions": {
+      "width": 78,
+      "depth": 80,
+      "height": 82
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Boucle Fabric, Solid Wood Legs"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "78 × 80 × 82 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "2-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "vault-4-door-sliding-wardrobe",
+    "name": "Vault 4-Door Sliding Wardrobe",
+    "category": "wardrobes",
+    "price": 79990,
+    "mrp": 99990,
+    "rating": 4.8,
+    "reviews": 73,
+    "short_description": "Soft-close sliding wardrobe with mirror panel.",
+    "description": "A floor-to-ceiling sliding wardrobe with soft-close runners, a full-length mirror, adjustable shelving and a dedicated accessory drawer — storage engineered around your wardrobe.",
+    "warranty": "7-Year Warranty",
+    "seating": null,
+    "weight": 160,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "BWP Plywood",
+      "Laminate Finish",
+      "Soft-close Runners"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      }
+    ],
+    "dimensions": {
+      "width": 240,
+      "depth": 60,
+      "height": 220
+    },
+    "badges": [
+      "Premium"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "BWP Plywood, Laminate Finish, Soft-close Runners"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "240 × 60 × 220 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "7-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "haven-3-door-wardrobe",
+    "name": "Haven 3-Door Wardrobe",
+    "category": "wardrobes",
+    "price": 52990,
+    "mrp": 67990,
+    "rating": 4.6,
+    "reviews": 51,
+    "short_description": "Hinged 3-door wardrobe with drawers.",
+    "description": "Classic hinged wardrobe with a hanging section, multiple shelves and external drawers — timeless storage with a hand-finished matte surface.",
+    "warranty": "5-Year Warranty",
+    "seating": null,
+    "weight": 95,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616627561950-9f746e330187?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Matte Laminate"
+    ],
+    "colors": [
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      }
+    ],
+    "dimensions": {
+      "width": 135,
+      "depth": 55,
+      "height": 200
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, Matte Laminate"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "135 × 55 × 200 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "5-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "horizon-floating-tv-unit",
+    "name": "Horizon Floating TV Unit",
+    "category": "tv-units",
+    "price": 27990,
+    "mrp": 35990,
+    "rating": 4.7,
+    "reviews": 134,
+    "short_description": "Wall-mounted TV unit with LED niche.",
+    "description": "A sleek wall-mounted media console with push-to-open drawers, an open display niche and concealed cable management — it makes your wall float.",
+    "warranty": "3-Year Warranty",
+    "seating": null,
+    "weight": 42,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1602990721338-9cbb5b983c4d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "PU Finish"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      },
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      }
+    ],
+    "dimensions": {
+      "width": 180,
+      "depth": 35,
+      "height": 40
+    },
+    "badges": [
+      "Best Seller"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, PU Finish"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "180 × 35 × 40 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "meridian-floor-tv-unit",
+    "name": "Meridian Floor TV Unit",
+    "category": "tv-units",
+    "price": 23990,
+    "mrp": 30990,
+    "rating": 4.5,
+    "reviews": 76,
+    "short_description": "Spacious floor-standing entertainment unit.",
+    "description": "Generous storage for media, consoles and decor with a mix of closed cabinets and open shelves on a warm wood base.",
+    "warranty": "3-Year Warranty",
+    "seating": null,
+    "weight": 50,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1602990721338-9cbb5b983c4d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Sheesham",
+      "Glass Inserts"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      }
+    ],
+    "dimensions": {
+      "width": 150,
+      "depth": 40,
+      "height": 55
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Sheesham, Glass Inserts"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "150 × 40 × 55 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "scholar-study-table",
+    "name": "Scholar Study Table",
+    "category": "study-tables",
+    "price": 14990,
+    "mrp": 19990,
+    "rating": 4.6,
+    "reviews": 158,
+    "short_description": "Compact study desk with shelf and drawers.",
+    "description": "An efficient study table with an overhead shelf, two drawers and cable routing — built for focus in homes and dorms alike.",
+    "warranty": "2-Year Warranty",
+    "seating": null,
+    "weight": 32,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Laminate"
+    ],
+    "colors": [
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      }
+    ],
+    "dimensions": {
+      "width": 110,
+      "depth": 55,
+      "height": 75
+    },
+    "badges": [
+      "Best Seller"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, Laminate"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "110 × 55 × 75 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "2-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "atlas-bookshelf-5-tier",
+    "name": "Atlas 5-Tier Bookshelf",
+    "category": "storage-furniture",
+    "price": 16990,
+    "mrp": 22990,
+    "rating": 4.7,
+    "reviews": 92,
+    "short_description": "Tall solid-wood bookshelf.",
+    "description": "A sturdy five-tier bookshelf in solid wood with anti-tip hardware — equal parts library and display, ready for a lifetime of stories.",
+    "warranty": "3-Year Warranty",
+    "seating": null,
+    "weight": 44,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1586024486164-ce9b3d87e09f?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Solid Sheesham"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      }
+    ],
+    "dimensions": {
+      "width": 90,
+      "depth": 35,
+      "height": 180
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Solid Sheesham"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "90 × 35 × 180 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "stride-shoe-rack-cabinet",
+    "name": "Stride Shoe Rack Cabinet",
+    "category": "storage-furniture",
+    "price": 11990,
+    "mrp": 15990,
+    "rating": 4.5,
+    "reviews": 110,
+    "short_description": "Enclosed shoe cabinet with flip drawers.",
+    "description": "Keep the entryway pristine with flip-down compartments that store up to 18 pairs behind a clean, slim profile.",
+    "warranty": "2-Year Warranty",
+    "seating": null,
+    "weight": 28,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": true,
+    "images": [
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=845,fit=crop/LCbkQflvzpboJC3e/whatsapp-image-2026-05-13-at-12.54.18-pm-Q79bvpXZBE7bjFx3.jpeg"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Metal Hinges"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      },
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      }
+    ],
+    "dimensions": {
+      "width": 80,
+      "depth": 24,
+      "height": 110
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, Metal Hinges"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "80 × 24 × 110 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "2-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "crest-crockery-unit",
+    "name": "Crest Crockery Unit",
+    "category": "storage-furniture",
+    "price": 32990,
+    "mrp": 42990,
+    "rating": 4.8,
+    "reviews": 47,
+    "short_description": "Glass-front crockery display cabinet.",
+    "description": "Display your finest with toughened glass doors, interior lighting provision and a solid base of drawers — a dining-room jewel box.",
+    "warranty": "5-Year Warranty",
+    "seating": null,
+    "weight": 70,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Sheesham",
+      "Toughened Glass"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      }
+    ],
+    "dimensions": {
+      "width": 100,
+      "depth": 45,
+      "height": 185
+    },
+    "badges": [
+      "Premium"
+    ],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Sheesham, Toughened Glass"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "100 × 45 × 185 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "5-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "nest-bedside-table",
+    "name": "Nest Bedside Table",
+    "category": "storage-furniture",
+    "price": 7990,
+    "mrp": 10990,
+    "rating": 4.6,
+    "reviews": 203,
+    "short_description": "Two-drawer bedside table.",
+    "description": "A compact bedside companion with two soft-close drawers and a display top — the perfect pair for any bed.",
+    "warranty": "2-Year Warranty",
+    "seating": null,
+    "weight": 14,
+    "in_stock": true,
+    "best_seller": true,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      },
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      }
+    ],
+    "dimensions": {
+      "width": 45,
+      "depth": 40,
+      "height": 55
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "45 × 40 × 55 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "2-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "visitor-chair-set-of-2",
+    "name": "Visitor Chair (Set of 2)",
+    "category": "office-furniture",
+    "price": 9990,
+    "mrp": 13990,
+    "rating": 4.5,
+    "reviews": 88,
+    "short_description": "Cantilever visitor chairs with cushioned seat.",
+    "description": "A pair of sturdy cantilever visitor chairs with cushioned seats and a chrome frame — boardroom comfort for guests.",
+    "warranty": "1-Year Warranty",
+    "seating": null,
+    "weight": 12,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Chrome Frame",
+      "Leatherette"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      }
+    ],
+    "dimensions": {
+      "width": 55,
+      "depth": 60,
+      "height": 90
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Chrome Frame, Leatherette"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "55 × 60 × 90 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "1-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "tea-table-nesting-trio",
+    "name": "Nesting Tea Table Trio",
+    "category": "storage-furniture",
+    "price": 13990,
+    "mrp": 18990,
+    "rating": 4.7,
+    "reviews": 71,
+    "short_description": "Set of three nesting tables.",
+    "description": "Three solid-wood tables that tuck neatly together — endlessly flexible for tea, snacks and surprise guests.",
+    "warranty": "2-Year Warranty",
+    "seating": null,
+    "weight": 16,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": true,
+    "images": [
+      "https://images.unsplash.com/photo-1528208079124-a2387f039c99?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1586024486164-ce9b3d87e09f?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Solid Mango Wood"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      }
+    ],
+    "dimensions": {
+      "width": 50,
+      "depth": 40,
+      "height": 55
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Solid Mango Wood"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "50 × 40 × 55 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "2-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "regal-2-seater-loveseat",
+    "name": "Regal 2-Seater Loveseat",
+    "category": "sofas",
+    "price": 38990,
+    "mrp": 49990,
+    "rating": 4.7,
+    "reviews": 96,
+    "short_description": "Compact loveseat with deep buttoning.",
+    "description": "A refined two-seater with deep-buttoned cushions and brass-tipped legs — intimate seating with a heritage feel.",
+    "warranty": "5-Year Frame Warranty",
+    "seating": null,
+    "weight": 40,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1550226891-ef816aed4a98?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1553098455-d1392a0428d0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Hardwood Frame",
+      "Premium Fabric"
+    ],
+    "colors": [
+      {
+        "name": "Forest",
+        "hex": "#3f5340"
+      },
+      {
+        "name": "Rust",
+        "hex": "#b7410e"
+      },
+      {
+        "name": "Stone Grey",
+        "hex": "#9ca3af"
+      }
+    ],
+    "dimensions": {
+      "width": 150,
+      "depth": 88,
+      "height": 84
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Hardwood Frame, Premium Fabric"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "150 × 88 × 84 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "5-Year Frame Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "workstation-2-person",
+    "name": "Twin Workstation (2-Person)",
+    "category": "office-furniture",
+    "price": 44990,
+    "mrp": 57990,
+    "rating": 4.6,
+    "reviews": 39,
+    "short_description": "Back-to-back workstation with privacy screen.",
+    "description": "A space-efficient two-person workstation with a central privacy screen, cable trays and lockable pedestals — scale your office in style.",
+    "warranty": "3-Year Warranty",
+    "seating": null,
+    "weight": 96,
+    "in_stock": false,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Steel Legs"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      },
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      }
+    ],
+    "dimensions": {
+      "width": 240,
+      "depth": 120,
+      "height": 75
+    },
+    "badges": [],
+    "specs": [
+      {
+        "label": "Primary Material",
+        "value": "Engineered Wood, Steel Legs"
+      },
+      {
+        "label": "Dimensions (W×D×H)",
+        "value": "240 × 120 × 75 cm"
+      },
+      {
+        "label": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "label": "Assembly",
+        "value": "Expert installation included"
+      },
+      {
+        "label": "Finish",
+        "value": "Hand-rubbed matte PU"
+      }
+    ]
+  },
+  {
+    "slug": "bespoke-custom-piece",
+    "name": "Bespoke Custom Piece",
+    "category": "custom-furniture",
+    "price": 0,
+    "mrp": null,
+    "rating": 5,
+    "reviews": 58,
+    "short_description": "Designed and built to your exact brief.",
+    "description": "From a one-of-a-kind dining table to a full home fit-out, our workshop builds bespoke furniture to your dimensions, materials and finish. Share your vision and our designers will bring it to life. Request a quote to begin.",
+    "warranty": "Up to 7-Year Warranty",
+    "seating": null,
+    "weight": null,
+    "in_stock": true,
+    "best_seller": false,
+    "is_new": false,
+    "images": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "materials": [
+      "Your choice of wood",
+      "Custom upholstery"
+    ],
+    "colors": [
+      {
+        "name": "Walnut",
+        "hex": "#7a5c45"
+      },
+      {
+        "name": "Teak",
+        "hex": "#9c6b3f"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#2b2b2b"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#efe8dd"
+      }
+    ],
+    "dimensions": {
+      "width": 0,
+      "depth": 0,
+      "height": 0
+    },
+    "badges": [
+      "Made to Order"
+    ],
+    "specs": [
+      {
+        "label": "Lead Time",
+        "value": "4–6 weeks"
+      },
+      {
+        "label": "Materials",
+        "value": "Sheesham, Teak, Acacia, Engineered Wood"
+      },
+      {
+        "label": "Finish",
+        "value": "Any RAL / wood stain"
+      },
+      {
+        "label": "Design",
+        "value": "Free design consultation"
+      }
+    ]
+  }
+]
