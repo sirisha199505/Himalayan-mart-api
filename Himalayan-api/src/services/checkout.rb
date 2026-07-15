@@ -19,6 +19,7 @@ class App::Services::Checkout < App::Services::Base
     order = build_order(cust, line_items, total, amount,
                         payment_method: 'razorpay', payment_status: 'created')
     return_errors!(order.errors, 400) unless order.save
+    order.update(code: gen_code(order.id))
 
     status, body = razorpay_post('/orders', {
       amount: amount, currency: 'INR', receipt: order.code,
@@ -98,6 +99,7 @@ class App::Services::Checkout < App::Services::Base
                         payment_method: 'cod', payment_status: 'cod_pending',
                         status: 'Processing')
     return_errors!(order.errors, 400) unless order.save
+    order.update(code: gen_code(order.id))
     upsert_customer(order)
 
     return_success(order_code: order.code, token: order_token(order.code), payment_method: 'cod')
@@ -169,7 +171,6 @@ class App::Services::Checkout < App::Services::Base
 
   def build_order(cust, line_items, total, amount, attrs)
     Order.new({
-      code: gen_code,
       customer: cust[:customer], email: cust[:email], phone: cust[:phone],
       address: cust[:address], city: cust[:city], state: cust[:state], pincode: cust[:pincode],
       line_items: line_items, items: line_items.sum { |li| li[:qty] },
@@ -178,8 +179,10 @@ class App::Services::Checkout < App::Services::Base
     }.merge(attrs))
   end
 
-  def gen_code
-    "HFM-#{SecureRandom.hex(3).upcase}"
+  # Sequential, human-friendly order number derived from the (unique,
+  # auto-incrementing) row id — so codes never collide and read in order.
+  def gen_code(id)
+    "HFM-#{1000 + id.to_i}"
   end
 
   # Maintain the admin `customers` aggregate (by email when present, else name).
