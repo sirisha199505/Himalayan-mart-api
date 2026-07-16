@@ -60,6 +60,21 @@ class App::Routes < Roda
           r.get('slug', String) { |s| Categories[r].public_get_by_slug(s) }
           r.get { Categories[r].public_list }
         end
+        r.on('blogs') do
+          r.get('slug', String) { |s| Blogs[r].public_get_by_slug(s) }
+          r.get { Blogs[r].public_list }
+        end
+        r.on('case-studies') do
+          r.get('slug', String) { |s| CaseStudies[r].public_get_by_slug(s) }
+          r.get { CaseStudies[r].public_list }
+        end
+        r.on('stories') do
+          r.get('slug', String) { |s| Stories[r].public_get_by_slug(s) }
+          r.get { Stories[r].public_list }
+        end
+        # No slug column — list only.
+        r.on('gallery') { r.get { GalleryItems[r].public_list } }
+        r.on('faqs')    { r.get { Faqs[r].public_list } }
       end
 
       # Authentication required for all routes below
