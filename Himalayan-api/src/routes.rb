@@ -50,6 +50,18 @@ class App::Routes < Roda
         r.get('order')         { Checkout[r].show }
       end
 
+      # Public storefront reads (no auth). GET-only, active-only.
+      r.on 'public' do
+        r.on('products') do
+          r.get('slug', String) { |s| Products[r].public_get_by_slug(s) }
+          r.get { Products[r].public_list }
+        end
+        r.on('categories') do
+          r.get('slug', String) { |s| Categories[r].public_get_by_slug(s) }
+          r.get { Categories[r].public_list }
+        end
+      end
+
       # Authentication required for all routes below
       auth_required!
 

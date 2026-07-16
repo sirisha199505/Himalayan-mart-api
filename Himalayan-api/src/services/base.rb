@@ -104,6 +104,21 @@ class App::Services::Base
     return_success(item.to_pos)
   end
 
+  # --- Public (storefront) reads: active-only, no auth required ---
+  # Active-only dataset, newest first. Services override to add filters.
+  def public_ds
+    model.where(active: true).order(Sequel.desc(:created_at))
+  end
+
+  def public_list
+    return_success(public_ds.all.map(&:to_pos))
+  end
+
+  def public_get_by_slug(slug = nil)
+    row = model.where(active: true, slug: slug || qs[:slug]).first
+    row ? return_success(row.to_pos) : return_errors!('Not found', 404)
+  end
+
   def create
     obj = model.new(data_for(:save))
     save(obj)

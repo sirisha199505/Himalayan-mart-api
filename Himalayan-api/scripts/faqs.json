@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Products",
+    "question": "What materials does Himalayan Furniture Mart use?",
+    "answer": "We build with kiln-dried solid hardwoods (sheesham, teak, acacia, mango), BWP-grade plywood and high-resilience foam. Upholstery ranges from performance weaves to premium boucle and leatherette. Every material is chosen for durability and a luxury finish."
+  },
+  {
+    "category": "Products",
+    "question": "Are your furniture pieces suitable for the Indian climate?",
+    "answer": "Yes. Our timber is kiln-dried to the right moisture content and treated against borer and termites, so pieces stay stable across humid coastal and dry inland climates alike."
+  },
+  {
+    "category": "Delivery",
+    "question": "Do you deliver across India?",
+    "answer": "We offer pan-India delivery. Metro and tier-1 cities are typically delivered within 5–10 business days; remote locations may take a little longer. You will receive tracking and a scheduled delivery slot."
+  },
+  {
+    "category": "Delivery",
+    "question": "Is delivery free?",
+    "answer": "Delivery is free on most products within serviceable city limits. For bespoke or oversized items and remote pin codes, a nominal logistics charge may apply, which we will confirm before dispatch."
+  },
+  {
+    "category": "Installation",
+    "question": "Do you provide installation?",
+    "answer": "Yes — expert installation is included on all major furniture. Our trained team assembles, levels and positions your furniture and removes all packaging so you can enjoy it right away."
+  },
+  {
+    "category": "Installation",
+    "question": "How long does installation take?",
+    "answer": "Most pieces are installed within 30–90 minutes. Larger items such as wardrobes and modular workstations may take 2–4 hours depending on complexity."
+  },
+  {
+    "category": "Warranty",
+    "question": "What warranty do you offer?",
+    "answer": "Warranty ranges from 1 to 7 years depending on the product — for example, 5-year frame warranties on flagship sofas and up to 7 years on premium wardrobes. Each product page lists its exact warranty."
+  },
+  {
+    "category": "Warranty",
+    "question": "What does the warranty cover?",
+    "answer": "Our warranty covers manufacturing defects in frames, joinery and mechanisms under normal household use. It excludes damage from misuse, accidents, or normal wear of fabrics and finishes."
+  },
+  {
+    "category": "Customization",
+    "question": "Can I customise furniture to my dimensions?",
+    "answer": "Absolutely. Custom furniture is our specialty. Share your dimensions, material and finish preferences and our designers will craft a bespoke piece. Lead times are typically 4–6 weeks."
+  },
+  {
+    "category": "Customization",
+    "question": "Can I choose my own fabric and finish?",
+    "answer": "Yes. We offer a wide library of fabrics, leatherette and wood stains. During a free consultation we will help you match materials to your space and budget."
+  },
+  {
+    "category": "Returns",
+    "question": "What is your return policy?",
+    "answer": "If a product arrives damaged or defective, we will repair or replace it at no cost. For non-custom items, returns are accepted within 7 days of delivery in original condition. Bespoke pieces are non-returnable."
+  },
+  {
+    "category": "Returns",
+    "question": "How do I raise a service request?",
+    "answer": "Call or WhatsApp us at +91 89773 92288, or use the contact form. Share your order details and photos, and our support team will resolve it promptly."
+  }
+]

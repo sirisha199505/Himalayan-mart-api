@@ -2,15 +2,20 @@ class App::Services::Products < App::Services::Base
   def model; Product; end
 
   def list
-    ds = model.order(Sequel.desc(:created_at))
-    if qs[:search].present?
-      term = "%#{qs[:search]}%"
-      ds = ds.where(Sequel.ilike(:name, term))
-    end
-    if qs[:category].present?
-      ds = ds.where(category: qs[:category])
-    end
-    return_success(ds.all.map(&:to_pos))
+    return_success(filtered(model.order(Sequel.desc(:created_at))).all.map(&:to_pos))
+  end
+
+  # Public storefront dataset: active only + the same search/category filters.
+  def public_ds
+    filtered(model.where(active: true).order(Sequel.desc(:created_at)))
+  end
+
+  private
+
+  def filtered(ds)
+    ds = ds.where(Sequel.ilike(:name, "%#{qs[:search]}%")) if qs[:search].present?
+    ds = ds.where(category: qs[:category]) if qs[:category].present?
+    ds
   end
 
   def self.fields

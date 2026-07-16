@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "sofas",
+    "name": "Sofas",
+    "tagline": "Sink into comfort",
+    "description": "Handcrafted sofas with kiln-dried hardwood frames and high-resilience foam — built for everyday luxury and years of beautiful living.",
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+    "icon": "Sofa",
+    "count": 48,
+    "featured": true
+  },
+  {
+    "slug": "beds",
+    "name": "Beds",
+    "tagline": "Rest, reimagined",
+    "description": "Statement beds with upholstered headboards and smart storage — engineered for stability and finished to perfection.",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+    "icon": "BedDouble",
+    "count": 36,
+    "featured": true
+  },
+  {
+    "slug": "dining-sets",
+    "name": "Dining Sets",
+    "tagline": "Gather in style",
+    "description": "Solid-wood dining tables and chairs designed for long dinners and lasting memories, in seating options from 4 to 8.",
+    "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+    "icon": "Utensils",
+    "count": 29,
+    "featured": true
+  },
+  {
+    "slug": "office-furniture",
+    "name": "Office Furniture",
+    "tagline": "Work, elevated",
+    "description": "Executive desks, boss chairs, visitor chairs and workstations that bring boardroom polish to every workspace.",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
+    "icon": "Briefcase",
+    "count": 52,
+    "featured": true
+  },
+  {
+    "slug": "chairs",
+    "name": "Chairs",
+    "tagline": "The art of sitting",
+    "description": "Accent chairs, ergonomic office chairs, visitor and boss chairs — a seat for every space and every posture.",
+    "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1200&q=80",
+    "icon": "Armchair",
+    "count": 64
+  },
+  {
+    "slug": "wardrobes",
+    "name": "Wardrobes",
+    "tagline": "Storage, perfected",
+    "description": "Sliding and hinged wardrobes with intelligent interiors, soft-close fittings and finishes tailored to your room.",
+    "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
+    "icon": "DoorClosed",
+    "count": 24,
+    "featured": true
+  },
+  {
+    "slug": "tv-units",
+    "name": "TV Units",
+    "tagline": "Centre of the room",
+    "description": "Wall-mounted and floor TV units with cable management and display niches — the anchor of a modern living room.",
+    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+    "icon": "Tv",
+    "count": 31,
+    "featured": true
+  },
+  {
+    "slug": "study-tables",
+    "name": "Study Tables",
+    "tagline": "Focus, by design",
+    "description": "Compact and executive study tables with cable routing and storage — built for productivity and posture.",
+    "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1200&q=80",
+    "icon": "PenLine",
+    "count": 27
+  },
+  {
+    "slug": "storage-furniture",
+    "name": "Storage Furniture",
+    "tagline": "Order, beautifully",
+    "description": "Bookshelves, shoe racks, crockery units, bedside tables and chests of drawers — storage that earns its place.",
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80",
+    "icon": "Archive",
+    "count": 58
+  },
+  {
+    "slug": "custom-furniture",
+    "name": "Custom Furniture",
+    "tagline": "Made for you",
+    "description": "Bespoke furniture crafted to your exact dimensions, materials and finish — your imagination, our workshop.",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+    "icon": "Ruler",
+    "count": 0,
+    "featured": true
+  }
+]

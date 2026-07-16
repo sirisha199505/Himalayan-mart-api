@@ -1,0 +1,130 @@
+[
+  {
+    "images": [],
+    "title": "Warm Living Room Retreat",
+    "category": "Living Room",
+    "image": "/images/gallery/sofa.jpg",
+    "span": "wide",
+    "location": "Hyderabad"
+  },
+  {
+    "images": [],
+    "title": "Modern TV Wall Unit",
+    "category": "Living Room",
+    "image": "/images/gallery/tv-unit.jpg",
+    "span": "tall",
+    "location": "Bengaluru"
+  },
+  {
+    "images": [],
+    "title": "Living Room Storage",
+    "category": "Living Room",
+    "image": "/images/gallery/storage.jpg",
+    "span": "normal",
+    "location": "Chennai"
+  },
+  {
+    "images": [],
+    "title": "Designer Bedroom Suite",
+    "category": "Bedroom",
+    "image": "/images/gallery/designer-bed.jpg",
+    "span": "tall",
+    "location": "Hyderabad"
+  },
+  {
+    "images": [],
+    "title": "Walk-in Wardrobe",
+    "category": "Bedroom",
+    "image": "/images/gallery/wardrobe.jpg",
+    "span": "normal",
+    "location": "Pune"
+  },
+  {
+    "images": [],
+    "title": "Family Dining Space",
+    "category": "Dining",
+    "image": "/images/gallery/dining.jpg",
+    "span": "wide",
+    "location": "Mumbai"
+  },
+  {
+    "images": [],
+    "title": "Elegant Dining Set",
+    "category": "Dining",
+    "image": "/images/gallery/dining-set.jpg",
+    "span": "normal",
+    "location": "Hyderabad"
+  },
+  {
+    "images": [],
+    "title": "Open-plan Kitchen",
+    "category": "Dining",
+    "image": "/images/gallery/kitchen.jpg",
+    "span": "normal",
+    "location": "Vizag"
+  },
+  {
+    "images": [],
+    "title": "Executive Home Office",
+    "category": "Office",
+    "image": "/images/gallery/home-office.jpg",
+    "span": "tall",
+    "location": "Hyderabad"
+  },
+  {
+    "images": [],
+    "title": "Office Workstations",
+    "category": "Office",
+    "image": "/images/gallery/workstation.jpg",
+    "span": "wide",
+    "location": "Bengaluru"
+  },
+  {
+    "images": [],
+    "title": "Conference Room",
+    "category": "Office",
+    "image": "/images/gallery/conference.jpg",
+    "span": "normal",
+    "location": "Chennai"
+  },
+  {
+    "images": [],
+    "title": "Boutique Hotel Interior",
+    "category": "Commercial",
+    "image": "/images/gallery/hotel.jpg",
+    "span": "tall",
+    "location": "Hyderabad"
+  },
+  {
+    "images": [],
+    "title": "Reception Lounge",
+    "category": "Commercial",
+    "image": "/images/gallery/reception.jpg",
+    "span": "normal",
+    "location": "Pune"
+  },
+  {
+    "images": [],
+    "title": "Cafe Seating",
+    "category": "Commercial",
+    "image": "/images/gallery/cafe.jpg",
+    "span": "wide",
+    "location": "Mumbai"
+  },
+  {
+    "images": [],
+    "title": "Corporate Cafeteria",
+    "category": "Commercial",
+    "image": "/images/gallery/cafeteria.jpg",
+    "span": "normal",
+    "location": "Hyderabad"
+  },
+  {
+    "images": [],
+    "title": "Imported Furniture Showcase",
+    "category": "Living Room",
+    "image": "/images/gallery/imported.jpg",
+    "span": "tall",
+    "location": "Hyderabad"
+  }
+]
