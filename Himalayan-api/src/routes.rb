@@ -72,6 +72,10 @@ class App::Routes < Roda
           r.get('slug', String) { |s| Stories[r].public_get_by_slug(s) }
           r.get { Stories[r].public_list }
         end
+        r.on('collections') do
+          r.get('slug', String) { |s| Collections[r].public_get_by_slug(s) }
+          r.get { Collections[r].public_list }
+        end
         # No slug column — list only.
         r.on('gallery')   { r.get { GalleryItems[r].public_list } }
         r.on('faqs')      { r.get { Faqs[r].public_list } }
@@ -101,6 +105,7 @@ class App::Routes < Roda
         r.on('blogs')         { do_crud(Blogs, r) }
         r.on('case-studies')  { do_crud(CaseStudies, r) }
         r.on('stories')       { do_crud(Stories, r) }
+        r.on('collections')   { do_crud(Collections, r) }
         r.on('seo')           { do_crud(Seos, r) }
         r.on('leads')         { do_crud(Leads, r) }
         r.on('orders')        { do_crud(Orders, r) }
