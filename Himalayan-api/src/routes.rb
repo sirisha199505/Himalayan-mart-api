@@ -73,8 +73,11 @@ class App::Routes < Roda
           r.get { Stories[r].public_list }
         end
         # No slug column — list only.
-        r.on('gallery') { r.get { GalleryItems[r].public_list } }
-        r.on('faqs')    { r.get { Faqs[r].public_list } }
+        r.on('gallery')   { r.get { GalleryItems[r].public_list } }
+        r.on('faqs')      { r.get { Faqs[r].public_list } }
+        r.on('locations') { r.get { Locations[r].public_list } }
+        # Storefront enquiry submissions (Enquire Now / consultation / contact).
+        r.on('leads')     { r.post { Leads[r].public_create } }
       end
 
       # Authentication required for all routes below
@@ -94,6 +97,7 @@ class App::Routes < Roda
         r.on('categories')    { do_crud(Categories, r) }
         r.on('gallery')       { do_crud(GalleryItems, r) }
         r.on('faqs')          { do_crud(Faqs, r) }
+        r.on('locations')     { do_crud(Locations, r) }
         r.on('blogs')         { do_crud(Blogs, r) }
         r.on('case-studies')  { do_crud(CaseStudies, r) }
         r.on('stories')       { do_crud(Stories, r) }
