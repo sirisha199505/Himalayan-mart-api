@@ -71,6 +71,7 @@ class App::Services::Checkout < App::Services::Base
     order.update(payment_status: 'paid', status: 'Processing',
                  razorpay_payment_id: payment_id, razorpay_signature: signature)
     upsert_customer(order)
+    send_order_emails(order)
 
     return_success(order_code: order.code, token: order_token(order.code), payment_status: 'paid')
   end
@@ -101,6 +102,7 @@ class App::Services::Checkout < App::Services::Base
     return_errors!(order.errors, 400) unless order.save
     order.update(code: gen_code(order.id))
     upsert_customer(order)
+    send_order_emails(order)
 
     return_success(order_code: order.code, token: order_token(order.code), payment_method: 'cod')
   end
@@ -220,5 +222,106 @@ class App::Services::Checkout < App::Services::Base
       nil
     end
     [resp.status, body]
+  end
+
+  # ── Order confirmation emails ───────────────────────────────────────────
+  # On a confirmed order (online payment verified, or COD placed) send a
+  # receipt to the customer and a notification to the store owner. Never
+  # raises: a mail failure must not roll back an order that is already saved.
+  def send_order_emails(order)
+    buyer = order.email.to_s.strip
+    unless buyer.empty?
+      deliver_mail(buyer, "Your Himalayan Mart order #{order.code}",
+                   customer_email_html(order))
+    end
+
+    owner = owner_email
+    unless owner.empty?
+      deliver_mail(owner, "New order #{order.code} — #{order.customer}",
+                   owner_email_html(order))
+    end
+  rescue => e
+    App.logger.error("order email failed for #{order.code}: #{e.message}")
+  end
+
+  # Owner / notification recipient: store settings email first, then env
+  # overrides, so a notice still goes out even if settings are blank.
+  def owner_email
+    [Setting.first&.email, ENV['ORDER_NOTIFICATION_EMAIL'], ENV['EMAIL_FROM']]
+      .map { |c| c.to_s.strip }
+      .find { |c| !c.empty? }
+      .to_s
+  end
+
+  def deliver_mail(to_addr, subject_line, html_body)
+    Mail.new do
+      from    ENV.fetch('EMAIL_FROM', 'noreply@himalayanfurnituremart.in')
+      to      to_addr
+      subject subject_line
+      html_part do
+        content_type 'text/html; charset=UTF-8'
+        body html_body
+      end
+    end.deliver!
+  end
+
+  def payment_label(order)
+    case order.payment_method
+    when 'cod'      then 'Cash on Delivery'
+    when 'razorpay' then 'Paid Online (Razorpay)'
+    else order.payment_method.to_s
+    end
+  end
+
+  # Shared items table + total + delivery block, used in both emails.
+  def order_summary_html(order)
+    li = order.line_items
+    li = JSON.parse(li) if li.is_a?(String)
+    rows = (li || []).map do |it|
+      it    = it.transform_keys(&:to_s)
+      qty   = it['qty'].to_i
+      price = it['price'].to_i
+      "<tr><td style='padding:6px 0;'>#{it['name']} &times; #{qty}</td>" \
+      "<td style='padding:6px 0;text-align:right;'>&#8377;#{price * qty}</td></tr>"
+    end.join
+    address = [order.address, order.city, order.state, order.pincode]
+              .map { |x| x.to_s.strip }.reject(&:empty?).join(', ')
+    <<-HTML
+      <table style="width:100%;border-collapse:collapse;font-size:14px;color:#1c2b2e;">
+        #{rows}
+        <tr>
+          <td style="padding:10px 0 0;border-top:1px solid #e4dfd4;font-weight:bold;">Total</td>
+          <td style="padding:10px 0 0;border-top:1px solid #e4dfd4;text-align:right;font-weight:bold;">&#8377;#{order.total}</td>
+        </tr>
+      </table>
+      <p style="font-size:14px;color:#47585b;line-height:1.6;">
+        <strong>Payment:</strong> #{payment_label(order)} (#{order.payment_status})<br/>
+        <strong>Deliver to:</strong> #{order.customer}, #{order.phone}<br/>
+        #{address}
+      </p>
+    HTML
+  end
+
+  def customer_email_html(order)
+    <<-HTML
+      <html><body style="font-family:Arial,Helvetica,sans-serif;color:#1c2b2e;max-width:560px;">
+        <h2 style="color:#2e6e6a;">Thank you for your order!</h2>
+        <p>Hi #{order.customer}, we've received your order <strong>#{order.code}</strong>. Here are the details:</p>
+        #{order_summary_html(order)}
+        <p style="font-size:14px;color:#47585b;">We'll keep you updated as your order is processed. Questions? Just reply to this email.</p>
+        <p style="font-size:13px;color:#8a8a8a;">Himalayan Furniture Mart</p>
+      </body></html>
+    HTML
+  end
+
+  def owner_email_html(order)
+    <<-HTML
+      <html><body style="font-family:Arial,Helvetica,sans-serif;color:#1c2b2e;max-width:560px;">
+        <h2 style="color:#2e6e6a;">New order received — #{order.code}</h2>
+        <p>A new order has been placed by <strong>#{order.customer}</strong> (#{order.email}, #{order.phone}).</p>
+        #{order_summary_html(order)}
+        <p style="font-size:13px;color:#8a8a8a;">Automated notification from your store.</p>
+      </body></html>
+    HTML
   end
 end
