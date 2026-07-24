@@ -39,6 +39,12 @@ class App::Routes < Roda
         { status: 'success', version: 1 }
       end
 
+      # Lightweight liveness probe for uptime monitors / keep-warm pings.
+      # Intentionally does NOT touch the DB so a cold instance answers fast.
+      r.get 'health' do
+        { status: 'ok' }
+      end
+
       # Public store settings for the storefront (whitelisted, no auth)
       r.get('store-info') { Settings[r].public_info }
 

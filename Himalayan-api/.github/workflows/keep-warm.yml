@@ -1,0 +1,33 @@
+name: Keep API warm
+
+# Pings the API's DB-free /api/health endpoint on a schedule so a free-tier
+# host (e.g. Render) doesn't sleep and cold-start on a real shopper's request.
+#
+# Setup: in this repo, Settings → Secrets and variables → Actions → Variables,
+# add a repository variable named API_URL set to your API base, e.g.
+#   https://himalayan-mart-api.onrender.com
+# (no trailing slash, no /api).
+
+on:
+  schedule:
+    # Every 10 minutes. GitHub may delay scheduled runs under load; Render
+    # sleeps after ~15 min idle, so this keeps it warm with margin.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {} # allow manual "Run workflow" from the Actions tab
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping /api/health
+        run: |
+          URL="${{ vars.API_URL }}"
+          if [ -z "$URL" ]; then
+            echo "::error::Set a repository variable API_URL (e.g. https://<service>.onrender.com)"
+            exit 1
+          fi
+          URL="${URL%/}" # strip any trailing slash
+          echo "Pinging $URL/api/health"
+          code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 60 --retry 2 "$URL/api/health")
+          echo "HTTP $code"
+          [ "$code" = "200" ]
